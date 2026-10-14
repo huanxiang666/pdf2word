@@ -1,0 +1,29 @@
+# 编译产物
+pdf2word
+pdf2word.exe
+pdf2word_*
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 测试与产物目录
+testdata/
+testdata2/
+dist/
+dist-x86/
+dist-win7/
+exp/
+
+# 本地库与工具
+libpdfium.so
+build_win7.sh
+
+# Go
+*.test
+*.out
+vendor/
+
+# 系统
+.DS_Store
+Thumbs.db
